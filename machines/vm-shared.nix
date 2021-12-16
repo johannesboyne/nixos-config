@@ -22,9 +22,6 @@
   # Define your hostname.
   networking.hostName = "dev";
 
-  # Set your time zone.
-  time.timeZone = "America/Los_Angeles";
-
   # The global useDHCP flag is deprecated, therefore explicitly set to false here.
   # Per-interface useDHCP will be mandatory in the future, so this generated config
   # replicates the default behaviour.
@@ -42,7 +39,7 @@
   # setup windowing environment
   services.xserver = {
     enable = true;
-    layout = "us";
+    layout = "de";
     dpi = 220;
 
     desktopManager = {

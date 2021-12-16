@@ -87,8 +87,7 @@ let sources = import ../../nix/sources.nix; in {
     config = {
       whitelist = {
         prefix= [
-          "$HOME/code/go/src/github.com/hashicorp"
-          "$HOME/code/go/src/github.com/mitchellh"
+          "$HOME/code/go/src/github.com/johannesboyne"
         ];
 
         exact = ["$HOME/.envrc"];
@@ -135,12 +134,8 @@ let sources = import ../../nix/sources.nix; in {
 
   programs.git = {
     enable = true;
-    userName = "Mitchell Hashimoto";
-    userEmail = "mitchell.hashimoto@gmail.com";
-    signing = {
-      key = "523D5DC389D273BC";
-      signByDefault = true;
-    };
+    userName = "Johannes Boyne";
+    userEmail = "johannes@boyne.de";
     aliases = {
       prettylog = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(r) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative";
       root = "rev-parse --show-toplevel";
@@ -150,7 +145,7 @@ let sources = import ../../nix/sources.nix; in {
       color.ui = true;
       core.askPass = ""; # needs to be empty to use terminal for ask pass
       credential.helper = "store"; # want to make this more secure
-      github.user = "mitchellh";
+      github.user = "johannesboyne";
       push.default = "tracking";
       init.defaultBranch = "main";
     };
@@ -159,7 +154,7 @@ let sources = import ../../nix/sources.nix; in {
   programs.go = {
     enable = true;
     goPath = "code/go";
-    goPrivate = [ "github.com/mitchellh" "github.com/hashicorp" "rfc822.mx" ];
+    goPrivate = [ "github.com/johannesboyne" ];
   };
 
   programs.tmux = {
@@ -193,7 +188,7 @@ let sources = import ../../nix/sources.nix; in {
         { key = "V"; mods = "Command"; action = "Paste"; }
         { key = "C"; mods = "Command"; action = "Copy"; }
         { key = "Key0"; mods = "Command"; action = "ResetFontSize"; }
-        { key = "Equals"; mods = "Command"; action = "IncreaseFontSize"; }
+        { key = "Plus"; mods = "Command"; action = "IncreaseFontSize"; }
         { key = "Subtract"; mods = "Command"; action = "DecreaseFontSize"; }
       ];
     };
