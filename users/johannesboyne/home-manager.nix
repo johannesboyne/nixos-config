@@ -24,6 +24,7 @@ let sources = import ../../nix/sources.nix; in {
     pkgs.watch
     pkgs.zathura
     pkgs._1password
+    pkgs.the_platinum_searcher
 
     pkgs.tlaplusToolbox
     pkgs.tetex
