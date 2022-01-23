@@ -27,7 +27,8 @@ let sources = import ../../nix/sources.nix; in {
 
     pkgs.tlaplusToolbox
     pkgs.tetex
-    pkgs.pt
+    pkgs.silver-searcher
+
   ];
 
   #---------------------------------------------------------------------
