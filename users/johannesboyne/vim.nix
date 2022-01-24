@@ -91,6 +91,11 @@ let sources = import ../../nix/sources.nix; in rec {
       name = "nvim-treesitter-textobjects";
       src = sources.nvim-treesitter-textobjects;
     };
+
+    vim-svelte-plugin = vimUtils.buildVimPlugin {
+      name = "vim-svelte-plugin";
+      src = sources.vim-svelte-plugin;
+    };
   };
 
   tree-sitter-proto = self.callPackage

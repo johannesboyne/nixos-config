@@ -238,6 +238,7 @@ let sources = import ../../nix/sources.nix; in {
       customVim.nvim-treesitter
       customVim.nvim-treesitter-playground
       customVim.nvim-treesitter-textobjects
+      customVim.vim-svelte-plugin
 
       vimPlugins.ctrlp
       vimPlugins.vim-airline

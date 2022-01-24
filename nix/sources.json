@@ -299,16 +299,16 @@
         "url": "https://github.com/ziglang/zig.vim/archive/0adf3a1407bdf60a6c1446fb6a9a05c9823e4290.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "vim-svelte": {
+    "vim-svelte-plugin": {
         "branch": "master",
-        "description": "Vim syntax highlighting and indentation for Svelte 3 components",
+        "description": "Vim syntax and indent plugin for .svelte files",
         "homepage": null,
-        "owner": "evanleck",
-        "repo": "vim-svelte",
-        "rev": "5f88e5a0fe7dcece0008dae3453edbd99153a042",
-        "sha256": "3838e6cbcacfebfe4d869fa6a78aeb8a6afd6c95b0c3eaa86e71b4553828fce0",
+        "owner": "leafOfTree",
+        "repo": "vim-svelte-plugin",
+        "rev": "heads",
+        "sha256": "1nvqah0jz49wz8gpl9kqbzngn1wcmaks9ilxs69vma6sbjkwwzhh",
         "type": "tarball",
-        "url": "https://github.com/evanleck/vim-svelte/archive/5f88e5a0fe7dcece0008dae3453edbd99153a042.tar.gz",
+        "url": "https://github.com/leafOfTree/vim-svelte-plugin/archive/refs/heads/master.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
