@@ -310,5 +310,17 @@
         "type": "tarball",
         "url": "https://github.com/leafOfTree/vim-svelte-plugin/archive/refs/heads/master.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nerdtree": {
+        "branch": "master",
+        "description": "A tree explorer plugin for vim",
+        "homepage": null,
+        "owner": "preservim",
+        "repo": "nerdtree",
+        "rev": "heads",
+        "sha256": "0hlyn2l9ppjn92zaiw51i6d15li15z5083m13m0710giqx05qrak",
+        "type": "tarball",
+        "url": "https://github.com/preservim/nerdtree/archive/refs/heads/master.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }

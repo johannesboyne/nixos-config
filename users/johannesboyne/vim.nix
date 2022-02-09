@@ -96,6 +96,11 @@ let sources = import ../../nix/sources.nix; in rec {
       name = "vim-svelte-plugin";
       src = sources.vim-svelte-plugin;
     };
+
+    nerdtree = vimUtils.buildVimPlugin {
+      name = "nerdtree";
+      src = sources.nerdtree;
+    };
   };
 
   tree-sitter-proto = self.callPackage
