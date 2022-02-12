@@ -101,6 +101,16 @@ let sources = import ../../nix/sources.nix; in rec {
       name = "nerdtree";
       src = sources.nerdtree;
     };
+
+    vim-expand-region = vimUtils.buildVimPlugin {
+      name = "vim-expand-region";
+      src = sources.vim-expand-region;
+    };
+
+    vim-visual-multi = vimUtils.buildVimPlugin {
+      name = "vim-visual-multi";
+      src = sources.vim-visual-multi;
+    };
   };
 
   tree-sitter-proto = self.callPackage

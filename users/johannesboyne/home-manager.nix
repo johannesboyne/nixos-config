@@ -28,6 +28,7 @@ let sources = import ../../nix/sources.nix; in {
     pkgs.tlaplusToolbox
     pkgs.tetex
     pkgs.silver-searcher
+    pkgs.tig
 
   ];
 
@@ -240,6 +241,8 @@ let sources = import ../../nix/sources.nix; in {
       customVim.nvim-treesitter-textobjects
       customVim.vim-svelte-plugin
       customVim.nerdtree
+      customVim.vim-expand-region
+      customVim.vim-visual-multi
 
       vimPlugins.ctrlp
       vimPlugins.vim-airline

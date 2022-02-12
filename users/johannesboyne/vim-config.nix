@@ -1,6 +1,10 @@
 { sources }:
 ''
-  set relativenumber
+set relativenumber
+set cursorcolumn
+set cursorline
+
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 "--------------------------------------------------------------------
 " Fix vim paths so we load the vim-misc directory

@@ -322,5 +322,29 @@
         "type": "tarball",
         "url": "https://github.com/preservim/nerdtree/archive/refs/heads/master.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "vim-expand-region": {
+        "branch": "master",
+        "description": "Expand vim selections",
+        "homepage": null,
+        "owner": "terryma",
+        "repo": "vim-expand-region",
+        "rev": "heads",
+        "sha256": "0l30wjlk4vxr16f1njnvf8aw9yg9p9jisvcxbcg3znsq5q8ix6zv",
+        "type": "tarball",
+        "url": "https://github.com/terryma/vim-expand-region/archive/refs/heads/master.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "vim-visual-multi": {
+        "branch": "master",
+        "description": "Vim multicurser",
+        "homepage": null,
+        "owner": "mg979",
+        "repo": "mg979/vim-visual-multi",
+        "rev": "heads",
+        "sha256": "02y91annhsrq6m9lnnvrla08g3z4chmpdrfrlzf252s26062mwdv",
+        "type": "tarball",
+        "url": "https://github.com/mg979/vim-visual-multi/archive/refs/heads/master.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
