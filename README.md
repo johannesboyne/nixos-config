@@ -1,3 +1,9 @@
+# NixOS Dev Setup
+
+Customization of @mitchellh 's great basic setup, adopted to my needs.
+
+--------------------
+
 # NixOS System Configurations
 
 This repository contains my NixOS system configurations. This repository
