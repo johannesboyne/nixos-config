@@ -1,6 +1,6 @@
 # NixOS Dev Setup
 
-Customization of @mitchellh 's great basic setup, adopted to my needs.
+Customization of [@mitchellh](https://github.com/mitchellh/nixos-config)'s great basic setup, adopted to my needs.
 
 --------------------
 
