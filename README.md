@@ -2,6 +2,15 @@
 
 Customization of [@mitchellh](https://github.com/mitchellh/nixos-config)'s great basic setup, adopted to my needs.
 
+- [`tig`](https://github.com/jonas/tig)
+- `ag` / [The Silver Searcher](https://github.com/ggreer/the_silver_searcher)
+- [NERDTree](https://github.com/ggreer/the_silver_searcher)
+- [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
+- [vim-expand-region](https://github.com/terryma/vim-expand-region)
+- vim settings: `relativenumber`, `cursorline` and `-column`, map `space` to clear search
+
+Other than that, most of the config felt already familiar or actually was the same.
+
 --------------------
 
 # NixOS System Configurations
