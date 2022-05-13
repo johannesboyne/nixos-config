@@ -253,6 +253,7 @@ let sources = import ../../nix/sources.nix; in {
       vimPlugins.vim-markdown
       vimPlugins.vim-nix
       vimPlugins.typescript-vim
+      vimPlugins.vim-flake8
     ];
 
     extraConfig = (import ./vim-config.nix) { inherit sources; };
