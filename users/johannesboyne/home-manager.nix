@@ -240,9 +240,11 @@ let sources = import ../../nix/sources.nix; in {
       customVim.nvim-treesitter-playground
       customVim.nvim-treesitter-textobjects
       customVim.vim-svelte-plugin
+      customVim.typescript-vim
       customVim.nerdtree
       customVim.vim-expand-region
       customVim.vim-visual-multi
+      customVim.vim-neoformat
 
       vimPlugins.ctrlp
       vimPlugins.vim-airline
@@ -254,6 +256,7 @@ let sources = import ../../nix/sources.nix; in {
       vimPlugins.vim-nix
       vimPlugins.typescript-vim
       vimPlugins.vim-flake8
+      vimPlugins.coc-nvim
     ];
 
     extraConfig = (import ./vim-config.nix) { inherit sources; };

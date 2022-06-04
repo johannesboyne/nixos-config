@@ -97,6 +97,11 @@ let sources = import ../../nix/sources.nix; in rec {
       src = sources.vim-svelte-plugin;
     };
 
+    typescript-vim = vimUtils.buildVimPlugin {
+      name = "typescript-vim";
+      src = sources.typescript-vim;
+    };
+
     nerdtree = vimUtils.buildVimPlugin {
       name = "nerdtree";
       src = sources.nerdtree;
@@ -110,6 +115,11 @@ let sources = import ../../nix/sources.nix; in rec {
     vim-visual-multi = vimUtils.buildVimPlugin {
       name = "vim-visual-multi";
       src = sources.vim-visual-multi;
+    };
+
+    vim-neoformat = vimUtils.buildVimPlugin {
+      name = "vim-neoformat";
+      src = sources.vim-neoformat;
     };
   };
 

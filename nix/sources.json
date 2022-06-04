@@ -311,6 +311,16 @@
         "url": "https://github.com/leafOfTree/vim-svelte-plugin/archive/refs/heads/master.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "typescript-vim": {
+        "branch": "master",
+        "owner": "leafgarland",
+        "repo": "typescript-vim",
+        "rev": "heads",
+        "sha256": "12qcp82jkaa6nmdb0s4an29bfp9mzkkkxz2sfhm93x5506g8gk4l",
+        "type": "tarball",
+        "url": "https://github.com/leafgarland/typescript-vim/archive/refs/heads/master.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "nerdtree": {
         "branch": "master",
         "description": "A tree explorer plugin for vim",
@@ -345,6 +355,18 @@
         "sha256": "02y91annhsrq6m9lnnvrla08g3z4chmpdrfrlzf252s26062mwdv",
         "type": "tarball",
         "url": "https://github.com/mg979/vim-visual-multi/archive/refs/heads/master.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "vim-neoformat": {
+        "branch": "master",
+        "description": "A (Neo)vim plugin for formatting code.",
+        "homepage": null,
+        "owner": "sbdchd",
+        "repo": "sbdchd/neoformat",
+        "rev": "heads",
+        "sha256": "13vfy252wv88rbw61ap1vg1x5br28d7rwbf19r28ajvg2xkvw816",
+        "type": "tarball",
+        "url": "https://github.com/sbdchd/neoformat/archive/refs/heads/master.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }

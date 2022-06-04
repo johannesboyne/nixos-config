@@ -4,8 +4,11 @@
   # https://github.com/nix-community/home-manager/pull/2408
   environment.pathsToLink = [ "/share/fish" ];
 
+  console = {
+    keyMap = "de";
+  };
+
   i18n = {
-    consoleKeyMap = "de";
     defaultLocale = "en_US.UTF-8";
   };
 
