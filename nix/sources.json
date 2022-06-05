@@ -368,5 +368,15 @@
         "type": "tarball",
         "url": "https://github.com/sbdchd/neoformat/archive/refs/heads/master.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "vim-neoformat": {
+        "branch": "master",
+        "owner": "editorconfig",
+        "repo": "editorconfig-vim",
+        "rev": "heads",
+        "sha256": "0vybd8i8ay17p14jia7ydzqy0jhdj8as745gl9qmhrby2nmdflm8",
+        "type": "tarball",
+        "url": "https://github.com/editorconfig/editorconfig-vim/archive/refs/heads/master.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }

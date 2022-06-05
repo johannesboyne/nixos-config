@@ -6,6 +6,9 @@ set cursorline
 
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
+" svelte
+let g:vim_svelte_plugin_use_typescript = 1
+
 "--------------------------------------------------------------------
 " Fix vim paths so we load the vim-misc directory
 let g:vim_home_path = "~/.vim"
